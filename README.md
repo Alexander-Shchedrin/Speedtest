@@ -15,8 +15,6 @@ root.title("SpeedTest")
 root.geometry("300x400")
 
 lang_var = StringVar(root)
-lang_var.set('Английский')  
-
 
 but = Button(root, text="Нажать", font=40, command=test) 
 but.pack(side=BOTTOM, pady=40)
@@ -25,6 +23,5 @@ down_label = Label(root, text="Скорость загрузки:\n-",font=35)
 down_label.pack(pady=(50, 0))
 upload_label = Label(root, text="Скорость отдачи:\n-",font=35)
 upload_label.pack(pady=(10, 0))
-
 
 root.mainloop()
